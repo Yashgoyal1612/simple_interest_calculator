@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, prefer_final_fields, unused_field, use_key_in_widget_constructors, must_be_immutable, unnecessary_this
 
 import 'package:flutter/material.dart';
+import 'package:simple_interest_calculator/drawer.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -170,7 +171,7 @@ class _HomePageState extends State<HomePage> {
               ],
             )),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 
